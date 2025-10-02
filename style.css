@@ -25,6 +25,12 @@ p {
     line-height: 1.6;
 }
 
+.note {
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 1rem;
+}
+
 .controls {
     margin-top: 1.5rem;
     display: flex;
