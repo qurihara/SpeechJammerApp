@@ -6,6 +6,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    padding-bottom: 5rem; /* フッターのためのスペース */
 }
 
 .container {
@@ -70,4 +71,45 @@ p {
 #delay-value {
     font-weight: bold;
     min-width: 30px;
+}
+
+/* --- Footer --- */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    border-top: 1px solid #e7e7e7;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 0.9em;
+    z-index: 1000;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.footer-content a {
+    color: #333;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.footer-content a:hover {
+    color: #007bff;
+}
+
+.footer-content p {
+    margin: 0;
+    color: #333;
+}
+
+.footer-content svg {
+    fill: currentColor;
 }
