@@ -56,7 +56,7 @@ async function startJamming() {
         gainNode.connect(audioContext.destination);
 
         // UIの更新
-        startStopButton.textContent = '停止';
+        startStopButton.textContent = '停止 / Stop';
         startStopButton.classList.add('active');
 
     } catch (err) {
@@ -80,6 +80,6 @@ function stopJamming() {
     }
 
     // UIの更新
-    startStopButton.textContent = '開始';
+    startStopButton.textContent = '開始 / Start';
     startStopButton.classList.remove('active');
 }
