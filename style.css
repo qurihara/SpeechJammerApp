@@ -1,11 +1,8 @@
 body {
     font-family: sans-serif;
     background-color: #f0f0f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     margin: 0;
+    padding-top: 5vh; /* 上部の余白 */
     padding-bottom: 5rem; /* フッターのためのスペース */
 }
 
@@ -16,6 +13,7 @@ body {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     text-align: center;
     max-width: 500px;
+    margin: 0 auto; /* 水平方向の中央揃え */
 }
 
 h1 {
@@ -99,6 +97,7 @@ footer {
     text-decoration: none;
     display: inline-flex;
     align-items: center;
+    gap: 0.5rem; /* アイコンとテキストの間隔 */
 }
 
 .footer-content a:hover {
