@@ -93,15 +93,12 @@ footer {
 }
 
 .footer-content a {
-    color: #333;
+    color: #007bff;
     text-decoration: none;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem; /* アイコンとテキストの間隔 */
 }
 
 .footer-content a:hover {
-    color: #007bff;
+    text-decoration: underline;
 }
 
 .footer-content p {
@@ -109,6 +106,6 @@ footer {
     color: #333;
 }
 
-.footer-content svg {
-    fill: currentColor;
+.footer-content p a {
+    color: #007bff;
 }
